@@ -1,7 +1,13 @@
 <article class="ArticleList">
 <% pages.forEach(function(page) { %>
   <article class="Article">
+          <% if (page.cover) { %>
+        <span><img class="article-img-icon" src="<%= page.cover %>"></span>
+      <% } %>
     <h3 class="Article__Title">
+      <!-- <% if (page.cover) { %>
+        <span><img class="article-img-icon" src="<%= page.cover %>"></span>
+      <% } %> -->
       <% if (page.iconUrl) { %>
         <span><img class="inline-img-icon" src="<%= page.iconUrl %>"></span>
       <% } %>

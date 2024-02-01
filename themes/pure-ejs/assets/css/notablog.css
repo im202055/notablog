@@ -318,3 +318,18 @@ body {
   width: 1.2em;
   vertical-align: sub;
 }
+.article-img-icon {
+  height: 6em;
+  /* Setting width prevents content shifting after image loaded. */
+  width: 12em;
+  object-fit: cover;
+
+  vertical-align: sub;
+}
+.Header .Header__Spacer{
+  height:10px;
+ }
+ nav{
+  /* backdrop-filter:blur(20px) grayscale(1) invert(.5) !important; */
+ }
+ 
